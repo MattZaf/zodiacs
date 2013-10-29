@@ -1,5 +1,5 @@
 FortuneTeller::Application.routes.draw do
-  get("/lucky_numbers", { :controller => "fortunes", :action => "numbers" })
+  get("/zodiacs", { :controller => "fortunes", :action => "numbers" })
 
   # Uncomment each route below ONE AT A TIME and debug.
   get("/zodiacs/aries",       { :controller => "zodiacs", action => "ram" })
